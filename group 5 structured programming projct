@@ -1,0 +1,65 @@
+GROUP 5 STRUCTURED PROGRAMMING PROJECT
+Group members.
+1.Benard Ochieng. ENE211-0052/2024
+2.Elsama Manje. ENE211-0156/2024
+3.David Raphael. ENE211- 0173/2024
+4.Frankline William. ENE211-0170/2021
+5.Ouma Joseph. ENE211-0053/2024
+6.Jayden Mwangi. ENE211-0019/2024
+AUTOMATIC CLAP ACTIVATED LIGHTING SYSTEM
+A clap-activated lighting system is an automatic control setup that turns lights on or off when it detects two distinct hand-clap sounds. The system uses a microphone to pick up sound, an amplifier to boost the signal, and a sound-detection circuit ,we can also use microcontroller or timer IC that recognizes the specific clap pattern. When two claps occur within a set time window, the controller sends a signal to a relay or electronic switch, which then powers the light. This design allows hands-free operation, improves convenience in dark rooms, and can be integrated into home-automation systems.
+
+Functional Requiremaents.
+1. Clap Detection
+The system must detect hand-clap sounds using a microphone.
+It must distinguish claps from normal background noise.
+
+2. Pattern Recognition
+The system must detect two claps within a specific time interval (e.g., 1–2 seconds).
+A single clap or claps outside the allowed interval must not trigger the system.
+
+3. Switching Action
+When two claps are correctly detected, the system must toggle the light (ON if OFF, OFF if ON).
+
+4. Signal Processing
+The system must amplify and filter the microphone signal so claps are clearly identifiable.
+
+5. Output Control
+The controller must send a signal to a relay or transistor to switch the lamp.
+
+6. Power Management
+The system must operate reliably from its intended power source (e.g., 5V/12V supply).
+
+7. Status Indication .
+The system may provide an LED indicator showing detection, processing, or switching status.
+
+
+Non-Functional Requirements.
+1. Reliability
+The system should work consistently without false triggers.
+It must operate correctly under typical indoor noise levels.
+
+2. Performance
+The system should detect claps within milliseconds.
+Response time from detection to light switching should be fast (under 1 second).
+
+3. Accuracy
+It should correctly differentiate true claps from random loud sounds.
+Sensitivity should be adjustable to reduce false positives.
+
+4. Usability
+The user should be able to turn the lights on/off easily without touching anything.
+The system should work in darkness where switches are hard to locate.
+
+5. Safety
+The relay or switching circuit must safely isolate low-voltage control electronics from mains voltage.
+The enclosure must prevent electric shock.
+
+6. Maintainability
+Components should be easy to replace or adjust (mic, relay, controller).
+
+7. Scalability
+It should support integration into home-automation systems if needed.
+
+8. Energy Efficiency
+The system should consume minimal power when idle.
